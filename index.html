@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Aditi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Happy Birthday Aditi! 🎉</h1>
+        <p class="intro-text">"Phulon ka Tarron ka Sabka khena... Gawaro mai maha gawar meri bhena hai!" 💖</p>
+
+        <!-- Flying Balloons -->
+        <div class="balloon-container">
+            <div class="balloon balloon1"></div>
+            <div class="balloon balloon2"></div>
+            <div class="balloon balloon3"></div>
+            <div class="balloon balloon4"></div>
+        </div>
+
+        <!-- Cake Animation -->
+        <div class="cake-container">
+            <img src="cake.png" alt="Birthday Cake" class="cake">
+            <p class="cake-text">Make a wish! 🎂</p>
+        </div>
+
+          <!-- Make a Wish Button -->
+          <div class="wish-section">
+            <button id="wishButton" onclick="blowCandles()">Make a Wish! 🎉</button>
+            <div id="candles">
+                <img src="candles.gif" alt="Burning Candles" class="candles-img">
+            </div>
+        </div>
+
+        <!-- Firecrackers -->
+        <div class="firecracker-container">
+            <div class="firecracker"></div>
+        </div>
+
+        <!-- Gallery Section with Photos and Cartoon Characters -->
+        <div class="gallery">
+            <div class="photo">
+                <img src="photo1.jpg" alt="Aditi and me 1">
+                <p class="caption">"Mai acha lag rahya hu!"</p>
+            </div>
+            <div class="photo">
+                <img src="photo2.jpg" alt="Aditi and me 2">
+                <p class="caption">"Phir se mai hi acha lag rahya hu!"</p>
+            </div>
+            <div class="cartoon-character">
+                <img src="shinchan.jpg" alt="Shinchan wishing" class="character">
+                <p class="caption">"Shinchan says, Happy Birthday Aditi!"</p>
+            </div>
+            <div class="cartoon-character">
+                <img src="doraemon.png" alt="Doraemon wishing" class="character">
+                <p class="caption">"Doraemon wishes you a wonderful birthday!"</p>
+            </div>
+        </div>
+
+        <!-- Happy Birthday Sticker -->
+        <div class="sticker">
+            <p>🚩 महाराज श्री रामचन्द्र जी की जय 🏹</p>
+            <p> प्रभु कृपा से आपके जीवन में सुख शांति बनी रहे, अपने जीवन की बुलंदियों को प्राप्त करें। </p>
+        </div>
+
+        <div class="special-message-section">
+            <button onclick="showMessage()">Click for a Special Message</button>
+            <p id="special-message" class="hidden">🎂 Papa khete hai bada naam karegi, beti humara esa kaam karegi! 🎈</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
